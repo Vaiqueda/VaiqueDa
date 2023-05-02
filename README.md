@@ -1,3 +1,12 @@
+# VaiqueDa
+
+projeto para a disciplina de webdesign.
+
+## Autores
+   Inês Gonçalves & Inês Neves
+
+
+
 ### Hi there 👋
 
 <!--
