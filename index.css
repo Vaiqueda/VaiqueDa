@@ -1,11 +1,24 @@
 
 header {background-color: black;
     display: flex;
+}
+
+img { justify-content: center;
+
+}
+
+h1 { display:flex; 
     justify-content: center;
-    align-items: center;
 }
 
-img { 
-}
+nav {color: white;
+display:flex;
+align-items: center;
+justify-content: flex-end;
 
+
+}
+p { display: flex;
+    align-content: space-around;
+}
 
