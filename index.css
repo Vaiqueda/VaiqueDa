@@ -22,3 +22,8 @@ p { display: flex;
     align-content: space-around;
 }
 
+.foto1 { display:flex;
+    justify-content:center;
+    align-items: center;
+align-content: center;
+}
