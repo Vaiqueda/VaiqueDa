@@ -15,15 +15,38 @@ nav {color: white;
 display:flex;
 align-items: center;
 justify-content: flex-end;
-
-
 }
+
 p { display: flex;
     align-content: space-around;
+    margin-right: 15px;
 }
 
 .foto1 { display:flex;
-    justify-content:center;
-    align-items: center;
-align-content: center;
+background-size: cover;
+
+}
+
+div { display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+figure {
+    width:30%;
+    margin: 0;
+
+}
+
+figure img { max-width: 100% ;
+
+}
+
+#destaque {
+    width: 100%;
+    height: calc( 100vh - 240px);
+    background-image: url('https://images.pexels.com/photos/1868471/pexels-photo-1868471.jpeg');
+    background-size: cover;
 }
