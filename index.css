@@ -1,6 +1,11 @@
 
 header {background-color: black;
     display: flex;
+    justify-content: space-evenly;
+}
+
+body {
+    margin: 0;
 }
 
 img { justify-content: center;
@@ -32,11 +37,13 @@ div { display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-content: space-around;
+    
 }
 
 figure {
     width:30%;
     margin: 0;
+    margin-top: 20px ;
 
 }
 
@@ -49,4 +56,54 @@ figure img { max-width: 100% ;
     height: calc( 100vh - 240px);
     background-image: url('https://images.pexels.com/photos/1868471/pexels-photo-1868471.jpeg');
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    Padding: 10px 20px 10px 20px ;
+    margin-top: 50px;
+
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 1s;
+
+
+}
+
+h2 { color: white;
+    padding-top: 10px;
+
+}
+
+#socialmedia {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: white;
+}
+
+#botaocontacto {
+    display: flex;
+    flex-direction: column;
 }
